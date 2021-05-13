@@ -1,0 +1,37 @@
+
+/* ------ NAV-BAR ------ */
+nav > div {
+    display: inline-block;
+}
+
+#right {
+    float: right;
+}
+
+#middle {
+    position: absolute;
+    left: 40%;
+}
+
+
+ /* ------ ICONS ------ */
+.material-icons, 
+#views-date {
+    color: #606060;
+}
+
+.account-circle {
+    color: #005cda;
+}
+
+.mic-icon {
+    color:  #575757 ;
+}
+
+.search-icon  {
+    color:  #848484;
+}
+
+#like-share > i {
+    color:   #838384 ;
+}
