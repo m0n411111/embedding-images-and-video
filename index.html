@@ -5,19 +5,26 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
-                <li id="menu">menu</li>
-                <li id="logo">logo</li>
-                <li id="search-bar">search</li>
-                <li id="apps">apps</li>
-                <li id="settings">settings</li>
-                <li id="sign-in">sign in</li>
-            </ul>
+           <div class="left">
+            <i class="material-icons">menu</i>
+            <img src="1280px-YouTube_Logo_2017.svg.webp" alt="Youtube logo" width="80px">
+           </div>
+
+           <div class="middle">
+            <input type="text" placeholder="Search"><!--
+            --><button id="search-btn"><i class="material-icons">search</i></button>
+           </div>
+
+           <div class="right">
+            <i class="material-icons">apps</i>
+            <i class="material-icons">more_vert</i>
+           </div>
         </nav>
     </header>
 
