@@ -4,11 +4,11 @@ nav > div {
     display: inline-block;
 }
 
-#right {
+#nav-right {
     float: right;
 }
 
-#middle {
+#nav-middle {
     position: absolute;
     left: 40%;
 }
