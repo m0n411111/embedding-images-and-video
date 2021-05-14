@@ -14,6 +14,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 #logo {
@@ -91,16 +92,52 @@ input {
 .main-video {
     background-color:  #f8f8f8;
     font-family: 'Roboto', sans-serif;
-    font-size: 
+    font-size: 18px;
 }
 
 .video,
-.video-description {
+.video-description,
+.subscribe {
     margin-left: 70px;
-    padding-top: 20px;
+    padding-top: 20px; 
 }
 
 #views-date,
 #like-share {
     display: inline-flex;
+    font-size: 16px;
+}
+
+#like-share {
+    margin-left: 60px;
+    padding-left: 110px;
+    margin-top: 15px;
+}
+
+#author {
+    display: flex;
+    align-items: center;
+    
+}
+
+#btn {
+    margin-left: 316px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 2px;
+    height: 35px;
+    padding: 0px 10px;
+}
+
+#text {
+    width: 50%;
+    margin-left: 60px;
+    padding-top: 20px; 
+    
+    word-wrap: break-word;
+}
+
+#image {
+    margin-right: 13px;
 }
