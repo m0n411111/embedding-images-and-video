@@ -30,38 +30,43 @@ header {
 }
 
 
-/* ---- MAIN VIDEO ---- */
+/* ---- MAIN CONTAINER ---- */
 
 .main-container {
-    background-color: blueviolet;
-    float: left;
-    margin: 20px;
-    margin-left: 75px;
-    width: 60%;
-    height: 100%;
+   margin: 20px 40px;
+   height: 100%;
+   display: flex;
 }
 
-/* ---- ASIDE ---- */
 
-.aside-container {
+/* ---- LEFT SEC ---- */
+
+.left-section {
+    background-color: darkturquoise;
+    float: left;
+    width: 63%;
+    height: auto;
+    margin-right: 8px;
+}
+
+
+/* ---- RIGHT SEC ---- */
+
+.aside-section {
     background-color: cadetblue;
     float: right;
-    margin: 20px;
-    margin-right: 75px;
-    width: 30%;
-    height: 100%;
+    width: 33%;
+    height: auto;
+    margin-left: 8px;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
-.aside-container > aside {
-    padding: 5px 0; 
-    
+.aside-section > aside {
+    padding: 10px 0;  
 }
 
 #thumbnail {
     float: left;
-    width: 200px;
-    
+    width: 200px;  
 }
