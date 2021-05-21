@@ -11,91 +11,94 @@
 <body>
 
     <header>
-        <div class="nav-bar">
-            <div class="container">
-            <div id="nav-left">
 
-                <i class="material-icons">menu</i>
-                <img id="logo" src="1280px-YouTube_Logo_2017.svg.webp" alt="Youtube logo" width="80px">
-            
+        <nav class="nav-bar">
+
+            <div id="left">
+                <i class="material-icons menu">menu</i>
+                <img id="logo" src="1280px-YouTube_Logo_2017.svg.webp" alt="" width="90">
             </div>
 
-            <div id="nav-middle">
-                   
-                    <input type="text" placeholder="Search" name="search"><!--
-                --><button id="search-btn"><i class="material-icons search-icon">search</i></button>
-                    <i class="material-icons mic-icon">mic</i>
-                
+            <div id="middle">
+                <input type="search" placeholder="Search"><i class="material-icons search">search</i>
+                <i class="material-icons mic">mic</i>
             </div>
 
-            <div id="nav-right">
+            <div id="right">
+                <i class="material-icons apps">apps</i>
+                <i class="material-icons settings">more_vert</i>
+                <button>
+                    <i class="material-icons account-cir">account_circle</i>
+                    SIGN IN
+                </button>
+            </div>
 
-                <i class="material-icons">apps</i>
-                <i class="material-icons">more_vert</i>
-                <button id="sign-in"><i class="material-icons account-circle">account_circle</i> SIGN IN </button>
-            
-            </div>
-            </div>
-        </div>
+        </nav>
+
     </header>
 
-    <section class="main-video">
+
+    <section class="main-container">
 
         <div class="video">
 
-            <iframe width="680" height="420" src="https://www.youtube.com/embed/9gTw2EDkaDQ"
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9gTw2EDkaDQ"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-        
-        </div>
 
-        <div class="video-description">
 
-            <p id="video-name"><strong>HTML Tutorial For Beginners - part 1 of 6 - Getting Started</strong></p>
-            
-            <p id="views-date">1,321,435 views • May 13, 2013</p>
-            
-            <p id="like-share">
-                <i class="material-icons">thumb_up</i> 9.5K
-                <i class="material-icons">thumb_down</i> 239
-                <i class="material-icons">share</i> SHARE
-                <i class="material-icons">playlist_add</i> SAVE
-                <i class="material-icons">more_horiz</i>
-            
-            </p>
-
-        </div>
-
-        <div class="subscribe">
-
-            <div class="author-info">
-
-                <div id="author">
-
-                <img id="image" src="unnamed.jpg" alt="">
-                
-                    <h3>tutor4u</h3>
-                    <p>319K subscribers</p>
-            
-                    <button id="btn">SUBSCRIBE</button>
-                </div>
-
-                <div id="text">
-                    <p> http://www.LittleWebHut.com <br>
-                        This series of videos demonstrates how to write HTML code that is compliant with the new
-                        HTML5 standards. These videos are good for beginners. 
-                    </p>
-                </div>
+            <div id="about-video">
 
             </div>
+
+            <div id="about-author">
+
+            </div>
+
+            <div id="comments">
+
+            </div>
+
         </div>
 
     </section>
 
-    <aside>
-        <img src=""
-    </aside>
+    
+    <section class="aside-container">
+
+        <aside>
+            video1
+            <p>tittle</p>
+        </aside>
+
+        <aside>
+            video2
+            <p>tittle</p>
+        </aside>
+
+        <aside id="v1">
+            video3
+            <p>tittle</p>
+        </aside>
+
+        <aside>
+            video4
+            <p>tittle</p>
+        </aside>
+
+        <aside>
+            video5
+            <p>tittle</p>
+        </aside>
+
+        <aside>
+            video6
+            <p>tittle</p>
+        </aside>
+
+    </section>
+
 </body>
 
 </html>

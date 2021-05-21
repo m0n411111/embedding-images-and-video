@@ -1,143 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-
-
-/* ------ NAV-BAR ------ */
-
-.nav-bar {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    max-height: 100%;
+body {
+    background-color: coral;
+}
+
+
+/* ---- HEADER ---- */
+
+header {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bar {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    margin: 0 auto;
     justify-content: space-between;
+}
+
+#left, #middle, #right {
+    padding: 10px;
+    background-color: cornsilk;
+}
+
+#right {
+   
+}
+
+#middle { 
+   
+}
+
+
+/* ---- MAIN VIDEO ---- */
+
+.main-container {
+    background-color: blueviolet;
+    float: left;
+    margin: 20px;
+    margin-left: 75px;
+    width: 60%;
+    height: 100%;
+}
+
+/* ---- ASIDE ---- */
+
+.aside-container {
+    background-color: cadetblue;
+    float: right;
+    margin: 20px;
+    margin-right: 75px;
+    width: 30%;
+    height: 100%;
+}
+
+.aside-container > aside {
+    padding: 10px 0;
     
 }
 
-#logo {
-    margin-bottom: 3px;
-}
-
-#nav-left,
-#nav-right {
-    padding: 0 8px;
-    margin: 9px;    
-}
-
-#nav-middle {
-    display: flex;
-    align-items: center;
-}
-
-#search-btn, 
-input {
-    border: 1px solid  #d6d6d6;
-}
-
-#search-btn {
-    padding: 2px 20px;
-}
-
-input {
-    height: 27px;
-    padding: 2px 10px;
-}
-
-#sign-in {
-    color: #005cda;
-    border-radius: 2px;
-    border: 1px solid #005cda;
-    padding: 5px 12px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    background-color: white;  
-}
-
-
- /* ------ ICONS ------ */
-
-.material-icons, 
-#views-date {
-    color: #606060;
-}
-
-.account-circle {
-    color: #005cda;
-    padding-top: 2px;
-}
-
-.mic-icon {
-    color:  #575757 ;
-}
-
-.search-icon  {
-    color:  #848484;
-}
-
-#nav-left > i,
-#nav-right > i {
-    padding: 0 19px 0 6px;
-}
-
-#like-share > i {
-    color:   #838384 ;
-}
-
-
-/* ------ VIDEO ------ */
-
-.main-video {
-    background-color:  #f8f8f8;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-}
-
-.video,
-.video-description,
-.subscribe {
-    margin-left: 70px;
-    padding-top: 20px; 
-}
-
-#views-date,
-#like-share {
-    display: inline-flex;
-    font-size: 16px;
-}
-
-#like-share {
-    margin-left: 60px;
-    padding-left: 110px;
-    margin-top: 15px;
-}
-
-#author {
-    display: flex;
-    align-items: center;
-    
-}
-
-#btn {
-    margin-left: 316px;
-    background-color: red;
-    color: white;
-    border: 2px solid red;
-    border-radius: 2px;
-    height: 35px;
-    padding: 0px 10px;
-}
-
-#text {
-    width: 50%;
-    margin-left: 60px;
-    padding-top: 20px; 
-    
-    word-wrap: break-word;
-}
-
-#image {
-    margin-right: 13px;
+#v1 {
+    background-color: crimson;
 }
