@@ -32,7 +32,7 @@ body {
 /* ---- MAIN CONTAINER ---- */
 
 .main-container {
-    margin: 80px 100px 20px 100px;
+    margin: 80px 120px 20px 120px;
     display: flex;
 }
 
@@ -41,7 +41,7 @@ body {
 
 .left-section {
     float: left;
-    width: 68%;
+    width: 70%;
     height: auto;
     margin-right: 8px;
 }
@@ -69,6 +69,15 @@ iframe {
     display: flex;
 }
 
+#description p {
+    line-height: 20px;
+    font-size: 15px;
+}
+
+span {
+    color:  #6e6e6e ;
+}
+
 #subscribe-btn {
     border: none;
     background-color: red;
@@ -81,7 +90,7 @@ iframe {
 
 .aside-section {
     float: right;
-    width: 30%;
+    width: 25%;
     height: auto;
     margin-left: 8px;
     display: flex;
@@ -94,6 +103,11 @@ iframe {
 
 #thumbnail {
     float: left;
-    width: 40%;
+    width: 190px;
     padding-right: 5px;
 }
+
+.material-icons {
+    color:  #8b8b8b;
+}
+
