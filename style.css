@@ -111,3 +111,12 @@ span {
     color:  #8b8b8b;
 }
 
+#middle {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+input {
+    width: 80%;
+}
