@@ -28,6 +28,16 @@ body {
     padding: 10px;
 }
 
+#middle {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+input {
+    width: 80%;
+}
+
 
 /* ---- MAIN CONTAINER ---- */
 
@@ -109,14 +119,4 @@ span {
 
 .material-icons {
     color:  #8b8b8b;
-}
-
-#middle {
-    display: flex;
-    width: 50%;
-    align-items: center;
-}
-
-input {
-    width: 80%;
 }
